@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8DA2BA0124CAF27500476C64 /* TestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA2BA0024CAF27500476C64 /* TestModel.swift */; };
 		A45ABC7924C95DEF005BC1A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45ABC7824C95DEF005BC1A8 /* AppDelegate.swift */; };
 		A45ABC7B24C95DEF005BC1A8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45ABC7A24C95DEF005BC1A8 /* SceneDelegate.swift */; };
 		A45ABC7D24C95DEF005BC1A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A45ABC7C24C95DEF005BC1A8 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8DA2BA0024CAF27500476C64 /* TestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestModel.swift; sourceTree = "<group>"; };
 		A45ABC7524C95DEF005BC1A8 /* MVCP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVCP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A45ABC7824C95DEF005BC1A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A45ABC7A24C95DEF005BC1A8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8DA2B9FF24CAF22F00476C64 /* GtestModel */ = {
+			isa = PBXGroup;
+			children = (
+				8DA2BA0024CAF27500476C64 /* TestModel.swift */,
+			);
+			path = GtestModel;
+			sourceTree = "<group>";
+		};
 		A45ABC6C24C95DEF005BC1A8 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		A45ABC7724C95DEF005BC1A8 /* MVCP */ = {
 			isa = PBXGroup;
 			children = (
+				8DA2B9FF24CAF22F00476C64 /* GtestModel */,
 				A45ABC7824C95DEF005BC1A8 /* AppDelegate.swift */,
 				A45ABC7A24C95DEF005BC1A8 /* SceneDelegate.swift */,
 				A45ABC7C24C95DEF005BC1A8 /* ViewController.swift */,
@@ -141,6 +152,7 @@
 				A45ABC7D24C95DEF005BC1A8 /* ViewController.swift in Sources */,
 				A45ABC7924C95DEF005BC1A8 /* AppDelegate.swift in Sources */,
 				A45ABC7B24C95DEF005BC1A8 /* SceneDelegate.swift in Sources */,
+				8DA2BA0124CAF27500476C64 /* TestModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
